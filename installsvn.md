@@ -14,3 +14,6 @@ yum install subversion
 
 # 启动svn
 svnserve -d -r /data/svn
+
+# svn checkout
+svn checkout svn://127.0.0.0.1/ox

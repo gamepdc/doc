@@ -9,8 +9,8 @@ yum install subversion
 * cd /data/svn/ox/conf
 * vi svnserve.conf
 * 设置选项 
-    anon-access = none
-    password-db = passwd
+    * anon-access = none
+    * password-db = passwd
 
 # 启动svn
 svnserve -d -r /data/svn
